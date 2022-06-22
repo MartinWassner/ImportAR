@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: gainsboro;
+}
+.logo{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    /* background-color: cadetblue; */
+}
+.navegables{
+    width: 100%;
+    align-self: center;
+    /* background-color: violet; */
+}
+
+.navegables ul{
+    justify-content: flex-end;
+}
+
+.navegables a{
+    font-family: 'Work Sans', sans-serif;   
+}
+
