@@ -3,8 +3,10 @@
     padding: 0;
 
 }
-header{
+nav{
     background-color: gainsboro;
+    width: 100%;
+    display: flex;
 }
 .logo{
     display: inline-flex;
@@ -20,9 +22,13 @@ header{
 
 .navegables ul{
     justify-content: flex-end;
+    margin-bottom: 0;
 }
 
 .navegables a{
     font-family: 'Work Sans', sans-serif;   
 }
 
+.d-block {
+    height: 300px;
+}

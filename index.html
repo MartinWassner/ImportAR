@@ -9,25 +9,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 </head>
 <body>
 
     <header style="display: flex;">
-        <div class="logo" style="padding: 5px 10px ;">
-            <h1 style="color: black; font-style: italic; ">Imp<span style="color: #FCBF49 ;">o</span>rt</h1>
-            <b style= "color: #75AADB; font-size: 32px; margin-left: 4px;">AR</b>
-        </div>
-
-        <div class="navegables">
-            <ul style="display: flex; list-style:none;">
-                <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Inicio</a></li>
-                <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Quienes somos</a></li>
-                <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Categorias</a></li>
-                <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Tarifas</a></li>
-            </ul>        
-        </div>
+        <nav>
+            <a href="index.html" style="text-decoration: none;">
+                <div class="logo" style="padding: 5px 10px ;">
+                    <h1 style="color: black; font-style: italic; font-size: 32px;">Imp<span style="color: #FCBF49 ;">o</span>rt</h1>
+                    <b style= "color: #75AADB; font-size: 32px; margin-left: 4px;">AR</b>
+                </div>
+            </a>
+            
+            
+            <div class="navegables">
+                <ul style="display: flex; list-style:none;">
+                    <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Inicio</a></li>
+                    <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Quienes somos</a></li>
+                    <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Categorias</a></li>
+                    <li style="margin: 0 25px;"><a href="" style="text-decoration: none; color: black">Tarifas</a></li>
+                </ul>        
+            </div>
+        </nav>
     </header>
-    
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="media/carousel-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Promo 1</h5>
+              <p>Esta promoción es por tiempo limitado</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="media/carousel-2.jpg.opdownload" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Promo 2</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="media/carousel-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Promo 3</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
